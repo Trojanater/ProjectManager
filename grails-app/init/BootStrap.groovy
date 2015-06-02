@@ -14,11 +14,11 @@ class BootStrap {
         projectManager: new ProjectMember(firstName: "Daniel", surname: "Lewis", fullName: "Daniel Lewis", projectTitle: ProjectTitle.ProjectManager).save(), deliveryDate: new Date(),
                 currentPhase: CurrentPhase.briefing, priority: 2).save()
 
-        new ProjectMember(firstName: "Daniel", surname: "Lewis", fullName: "Steve Erwin-Lewis", projectTitle: ProjectTitle.TeamLead).save()
-        new ProjectMember(firstName: "Daniel", surname: "Lewis", fullName: "Bob Louwry", projectTitle: ProjectTitle.ProjectManager).save()
-        new ProjectMember(firstName: "Daniel", surname: "Lewis", fullName: "Candice Johnson", projectTitle: ProjectTitle.ProjectManager).save()
-        new ProjectMember(firstName: "Daniel", surname: "Lewis", fullName: "Peter Parker", projectTitle: ProjectTitle.TeamLead).save()
-        new ProjectMember(firstName: "Daniel", surname: "Lewis", fullName: "Clark Kent", projectTitle: ProjectTitle.TeamLead).save()
+        new ProjectMember(firstName: "Steve", surname: "Erwin-Lewis", fullName: "Steve Erwin-Lewis", projectTitle: ProjectTitle.TeamLead).save()
+        new ProjectMember(firstName: "Bob", surname: "Louwry", fullName: "Bob Louwry", projectTitle: ProjectTitle.ProjectManager).save()
+        new ProjectMember(firstName: "Candice", surname: "Johnson", fullName: "Candice Johnson", projectTitle: ProjectTitle.ProjectManager).save()
+        new ProjectMember(firstName: "Peter", surname: "Parker", fullName: "Peter Parker", projectTitle: ProjectTitle.TeamLead).save()
+        new ProjectMember(firstName: "Clark", surname: "Kent", fullName: "Clark Kent", projectTitle: ProjectTitle.TeamLead).save()
     }
     def destroy = {
     }
